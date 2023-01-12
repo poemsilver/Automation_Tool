@@ -1,5 +1,9 @@
 # xml import용도의 코드
 
+import re
+import xml.etree.ElementTree as ET
+import numpy as np
+
 class PrmXmlImpoter:
     category_names = ["MAP", "CURVE", "CURVE_AXIS", "COM_AXIS", "VAL_BLK", "VALUE", "ASCII"]
 
