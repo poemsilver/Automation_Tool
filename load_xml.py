@@ -1,4 +1,5 @@
 # xml import용도의 코드
+# 파싱한 xml 내용을 불러온다.
 
 import re
 import xml.etree.ElementTree as ET
